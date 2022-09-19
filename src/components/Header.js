@@ -15,7 +15,7 @@ const Header = () => {
               <img src="/assets/images/logo.png" alt="logo" />
             </div>
           </div>
-          <div className="col-6 col-md-6">
+          <div className="col-12 col-md-6 mb-4 mb-md-0">
             <div className="search-bar text-secondary">
               <input
                 className="form-control rounded-pill font-16"
@@ -27,8 +27,8 @@ const Header = () => {
               </span>
             </div>
           </div>
-          <div className="col-3 col-md-3">
-            <div className="icons d-flex align-items-center justify-content-end">
+          <div className="col-12 col-md-3">
+            <div className="icons d-flex align-items-center justify-content-center justify-content-md-end">
               <span className="me-3 h4 text-black cursor-pointer">
                 <AiOutlineHeart />
               </span>
